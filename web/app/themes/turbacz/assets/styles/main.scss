@@ -1,8 +1,10 @@
-@import "common/_variables";
+// Normalize
+@import "../../bower_components/normalize/_normalize.scss";
 
-// Automatically injected Bower dependencies via wiredep (never manually edit this block)
-// bower:scss
-// endbower
+// Fonts
+
+// Base settings
+@import "general/_variable.scss";
 
 // Bower components
 @import "../../bower_components/csswizardry-grids/csswizardry-grids.scss";

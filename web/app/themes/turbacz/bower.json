@@ -8,7 +8,8 @@
   "dependencies": {
     "modernizr": "2.8.2",
     "csswizardry-grids": "~2.2.0",
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "normalize-scss": "~3.0.3"
   },
   "overrides": {
     "modernizr": {
