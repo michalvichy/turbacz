@@ -1,9 +1,44 @@
-// Glyphicons font path
-$icon-font-path:        "../fonts/";
+/*------------------------------------*\
+    #VARIABLES
+\*------------------------------------*/
+/**
+ * Grid
+ */
+$gutter: 0;
+$push: true;
+$pull: true;
 
-// Grid settings
-$main-sm-columns:       12;
-$sidebar-sm-columns:    4;
 
-// Colors
-$brand-primary:         #27ae60;
+/**
+ * Breakpoints
+ */
+$tablet: 767px;
+$desktop: 1024px;
+$desktop-wide: 1440px;
+
+
+$breakpoints: (
+    'palm' '(max-width: 480px)',
+    'lap' '(min-width: 481px) and (max-width: 1023px)',
+    'portable' '(max-width: 1023px)',
+    'tab' '(min-width: #{$tablet})',
+    'desk' '(min-width: 1024px)',
+    'desk-wide' '(min-width: 1440px)'
+);
+
+$breakpoint-has-widths: ('palm', 'lap', 'portable', 'tab', 'desk', 'desk-wide');
+
+
+/**
+ * Fonts
+ */
+$base-font-family: 'Arial';
+$base-font-size: 14px;
+$base-font-weight: 400;
+
+
+/**
+ * Colors
+ */
+$black: #000;
+$white: #fff;
